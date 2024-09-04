@@ -1,0 +1,21 @@
+{
+	"name": "rootpkg",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"predev": "echo dev开始",
+		"dev": "turbo dev --concurrency 50",
+		"build": "turbo build --concurrency 50",
+		"postdev": "echo dev 结束"
+	},
+	"dependencies": {
+		"@arco-design/web-vue": "^2.56.1",
+		"qrcode": "^1.5.4"
+	},
+	"packageManager": "pnpm@9.9.0",
+	"devDependencies": {
+		"less": "^4.2.0",
+		"less-loader": "^12.2.0"
+	}
+}
